@@ -1,0 +1,9 @@
+jmp<decr>                   --> decrement register value by 1
+jmp<incr>                   --> increment register value by 1
+for[-]                      --> for-loop that decreases every register value, until the min-Border
+                                is reached.
+for[+]                      --> for-loop that increments every register value, until the max-Border
+                                is reached.
+DEF_OUT <prgm.debug>        --> print the debug data of the program to the console.
+mov %r <-->                 --> decrease pointer position by 1
+mov %r <++>                 --> increase pointer position by 1
